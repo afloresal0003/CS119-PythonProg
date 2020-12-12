@@ -1,0 +1,47 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "launchconfigurations": {
+        "@currentconfig": ""
+    },
+    "python": {
+        "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "python3": {
+                    "command": "ToBeGraded/Project\\ 2/p2-program4.py",
+                    "debug": false,
+                    "env": {},
+                    "name": "python3",
+                    "runner": "Python 3",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
